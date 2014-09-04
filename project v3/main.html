@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Video analytics</title>
+
+<style>
+	div.container
+	{
+		width:100%;
+		margin:0px;
+		border:1px solid gray;
+		line-height:170%;
+	}
+	
+	div.header,div.footer
+	{
+		padding:0.5em;
+		color:white;
+		background-color:gray;
+		clear:left;
+	}
+
+	h1.header
+	{
+		padding:0;
+		margin:0;
+	}
+
+	div.left
+	{
+		float:left;
+		width:75%;
+		margin:0;
+		padding:1em;
+	}
+
+	div.content
+	{
+		margin-left:1000px;
+		border-left:1px solid gray;
+		border-bottom:1px solid gray;
+		padding:1em;
+	}
+
+
+
+</style>
+
+</head>
+
+<body>
+
+	<div class="container">
+
+		<div class="header">
+
+			<h1 class="header">
+				<div style="text-align:center;">
+					Education video analytics dataset
+				</div>
+			</h1>
+		</div>
+
+		<div class="left">
+			<div style="clear:left; padding-left:250px; padding-top:50px;">
+				<form action="signup1.php" method="post" >
+					<fieldset>
+						<legend>Sign up</legend>
+			
+						<input size="50" type="email" name="name" placeholder="email-id" style="height:24px;">
+						<br><br>
+						<input maxlength="15" size="50" type="password" name="password" placeholder="password" style="height:24px;">
+						<br><br>
+						<input maxlength="15" size="50" type="password" name="repassword" placeholder="re-enter password" style="height:24px;">			  
+						<br><br>
+						<input type="submit" value="Way to glory" style="border-radius:10px; color:white;background:green;height:35px;width:85px;">
+
+					</fieldset>
+				</form>
+			</div><br><br>
+
+			<div style="padding-left:250px;">
+				<form method="post" action="signin.php">
+					<input size="50" type="email" name="name" placeholder="email-id" style="height:24px;">
+					<input type="password" name="password" placeholder="password" maxlength="15" size="25" style="height:24px;">
+					<input  type="submit" value="Sign in " style="border-radius:10px; color:white;background:green;height:30px;width:80px;">
+				</form>
+				
+			</div>		
+		</div>	
+	</div>
+		<div class="footer">Copyright 2014-2024 by Bromigos
+		</div>
+
+
+</div>
+
+</body>
+</html>
